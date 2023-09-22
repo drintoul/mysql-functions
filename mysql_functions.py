@@ -52,7 +52,7 @@ def df_to_table(df, database, table, method):
     
     """ Save table to database and either overwrite or append """
 
-    if not df:
+    if df.empty:
         raise ValueError('DataFrame cannot be empty')
     if not database or not table:
         raise ValueError('Database and Table must be provided')
