@@ -1,4 +1,5 @@
-# mysql_functions
+# mysql-functions
+
 MySQL functions to connect to, query and update MySQL database
 
 ## Authentication
